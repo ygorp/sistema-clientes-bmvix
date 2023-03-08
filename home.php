@@ -57,14 +57,14 @@
                 </select>
             </div>
             <div class="col-md-2">
-                <label for="inputZip" class="form-label">Digite o número</label>
+                <label for="inputZip" class="form-label">Digite aqui</label>
                 <input type="text" class="form-control" id="inputnumber">
             </div>
             <div class="col-12">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
-</section>
+    </section>
 
 
 
