@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <main class="content">
+    <section class="cliente">
         <form class="row g-3">
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Razão Social</label>
@@ -64,7 +64,7 @@
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
-    </main>
+</section>
 
 
 
