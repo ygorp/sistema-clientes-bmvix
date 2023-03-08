@@ -103,5 +103,13 @@ h2 {
     .row {
         height: 100%;
     }
-    
+    h2 {
+      font-size: 28px;
+    }
+}
+
+.equipamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
