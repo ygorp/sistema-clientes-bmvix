@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #727274;
+    --form-bg-color: #a5a5a7;
+    --text1-color: #4d0000;
+    --btn-color: #800000;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.navbar-brand {
+    padding: 20px;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.d-flex input {
+    border: 1px solid var(--text1-color);
+}
+
+.d-flex button {
+    border: none;
+    background-color: var(--btn-color);
+    color: #FFFFFF;
+}
+
+/* FIM NAVBAR */
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin-top: 40px;
+    width: 60%;
+    height: 400px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    background-color: var(--form-bg-color);
+    padding: 25px;
+}
+
+.form-select {
+    width: 120px;
+}
+
+.col-md-2 label {
+    margin-left: -240px;
+}
+
+#inputnumber {
+    width: 400px;
+    margin-left: -240px;
+}
+
+.btn {
+    width: 150px;
+    background-color: var(--btn-color);
+    font-size: 18px;
+    border: none;
+}
