@@ -37,6 +37,7 @@
 
     <section class="cliente">
         <form class="row g-3">
+            <h2 class="titulo-cliente">Clientes</h2>
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Razão Social</label>
                 <input type="text" class="form-control" id="inputNsocial" placeholder="Digite aqui">
@@ -63,6 +64,145 @@
             <div class="col-12">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
+        </form>
+    </section>
+
+    <section class="sistema">
+        <form class="row g-3">
+            <h2>Sistema</h2>
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Fabricante</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">Secullum</option>
+                    <option>ControlId</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Versão</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">Ponto WEB</option>
+                    <option>Ponto 4</option>
+                    <option>Secullum Offline</option>
+                    <option>RhId</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Licença</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">PRO</option>
+                    <option>ULTIMATE</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Adicional?</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Adicional de Qtas pessoas?</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Quantos CNPJ/CPF</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Qtd Pessoas Licença</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Usa APP?</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Qtd Pessoas APP</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Qtd Pessoas Facial</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Tipo do Banco</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">SQL</option>
+                    <option>Acess</option>
+                    <option>WEB</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Nome do Banco</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">IP Servidor</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Nome do servidor</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Nome da Instância</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Local do banco</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Qtd Pessoas Facial</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Pasta backup</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Usuário banco</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Senha Banco</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">Backup WEB Ativo?</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected value="">Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+
         </form>
     </section>
 
