@@ -36,7 +36,7 @@
     </nav>
 
     <section class="cliente">
-        <form class="row g-3">
+        <form class="row g-3" id="cliente">
             <h2 class="titulo-cliente">Clientes</h2>
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Razão Social</label>

@@ -50,7 +50,7 @@ h2 {
 }
 
 .titulo-cliente {
-    margin-bottom: -60px;
+    margin-bottom: -40px;
     margin-top: -30px;
 }
 
@@ -97,4 +97,11 @@ h2 {
 .sistema {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 920px) {
+    .row {
+        height: 100%;
+    }
+    
 }
