@@ -8,22 +8,23 @@
     <title>Home - BMVIX</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cadastro.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="CNPJ OU CPF" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </form>
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#"><img src="/img/logo.png" alt=""></a>
             </div>
+
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Voltar</a>
+                </li>
+            </ul>
+
         </div>
     </nav>
 
@@ -53,13 +54,9 @@
                 <label for="inputZip" class="form-label">Digite aqui</label>
                 <input type="text" class="form-control" id="inputnumber">
             </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
-    </section>
 
-    <section class="sistema">
+        </form>
+
         <form class="row g-3">
             <h2>Sistema</h2>
             <div class="col-md-3">
@@ -196,6 +193,10 @@
             </div>
 
         </form>
+    </section>
+
+    <section class="sistema">
+
     </section>
 
     <section class="equipamento">
