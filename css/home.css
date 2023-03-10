@@ -15,101 +15,61 @@ body {
   background-color: var(--body-bg-color);
 }
 
-h2 {
-    font-size: 35px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    color: var(--text1-color);
-    text-transform: uppercase;
+img {
+  width: 250px;
 }
 
-.navbar-brand {
-  padding: 20px;
+h1 {
+  color: var(--text1-color);
+  font-size: 30px;
 }
 
-.navbar-brand img {
-  width: 200px;
+p {
+  margin-top: 30px;
 }
 
-.d-flex input {
-  border: 1px solid var(--text1-color);
-}
-
-.d-flex button {
-  border: none;
-  background-color: var(--btn-color);
-  color: #ffffff;
-}
-
-/* FIM NAVBAR */
-
-.cliente {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.titulo-cliente {
-    margin-bottom: -40px;
-    margin-top: -30px;
+.card {
+  height: 350px;
+  margin-top: 100px;
+  background-color: var(--form-bg-color);
+  width: 75%;
+  margin-left: 15%;
 }
 
 .row {
-  margin-top: 40px;
-  width: 70%;
-  height: 750px;
-  border: 2px solid #000000;
-  border-radius: 6px;
-  background-color: var(--form-bg-color);
-  padding: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-
-.col-md-2 {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  width: 200px;
-}
-
-.col-md-6 {
-  width: 200px;
-}
-
-.col-md-4 {
-  width: 115px;
+  margin-top: 25px;
 }
 
 .btn {
-  width: 150px;
   background-color: var(--btn-color);
-  font-size: 18px;
   border: none;
-  transition: all 0.4s ease-in-out;
+  width: 120px;
+  transition: all .4s ease-in-out;
 }
 
 .btn:hover {
-  background-color: var(--text1-color);
+  background: var(--text1-color);
 }
 
-.sistema {
-    display: flex;
-    justify-content: center;
+.nav-link {
+  color: #FFFFFF;
+  font-size: 19px;
+  transition: all .4s ease-in-out;
 }
 
-@media (max-width: 920px) {
-    .row {
-        height: 100%;
-    }
-    h2 {
-      font-size: 28px;
-    }
+.nav-link:hover {
+  color: #FFFFFF;
 }
 
-.equipamento {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav-item {
+  background-color: var(--btn-color);
+  border-radius: 6px 6px 0 0;
+}
+
+@media (max-width: 512px) {
+  h1 {
+    margin-top: 15px;
+  }
 }
