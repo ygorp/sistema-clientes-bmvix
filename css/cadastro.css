@@ -22,7 +22,13 @@ img {
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+#voltar {
+  color: #ffffff;
+  width: 120px;
+  text-align: center;
 }
 
 .card-body {

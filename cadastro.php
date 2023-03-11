@@ -21,7 +21,7 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Voltar</a>
+                    <a class="nav-link active" id="voltar" aria-current="page" href="#">Voltar</a>
                 </li>
             </ul>
 
