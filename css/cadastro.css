@@ -24,3 +24,51 @@ img {
   align-items: center;
   justify-content: space-around;
 }
+
+.card-body {
+  background-color: var(--form-bg-color);
+}
+
+.container-fluid {
+  width: 80%;
+  height: 75%;
+  margin-top: 90px;
+}
+
+#nav-cliente,
+#nav-sistema,
+#nav-equipamento {
+  padding: 20px;
+}
+
+.btn {
+  background-color: var(--btn-color);
+  border: none;
+  width: 190px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background: var(--text1-color);
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 19px;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-item {
+  background-color: var(--btn-color);
+  border-radius: 6px 6px 0 0;
+}
+
+@media (max-width: 843px) {
+  .container-fluid {
+    width: 100%;
+  }
+}
